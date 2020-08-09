@@ -20,6 +20,10 @@ class Dog(Animal):
     def Name(self, val):
         self.__name = val
 
+    @staticmethod
+    def defintion():
+        print("Man's best friend")
+
 
 if __name__ == "__main__":
     dog = Dog()
@@ -27,3 +31,4 @@ if __name__ == "__main__":
     dog.Limbs()
     dog.Name = 'Bonzo'
     print(dog.Name)
+    Dog.defintion()
