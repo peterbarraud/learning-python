@@ -6,8 +6,8 @@ def lists():
 def dicts():
     d = {'a':1,'b':2}
     print(d['a'])
-    if (d.get('a')):
-        print(d['a'])
+    if (d.get('c')):
+        print(d['c'])
 
 def main():
     dicts()
