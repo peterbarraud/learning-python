@@ -12,4 +12,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # changing the print separator
     print('a', 'b', 'c', sep=';')
